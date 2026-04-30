@@ -8,5 +8,5 @@ variable "vpc_id" {
 
 variable "my_ip" {
   description = "Your public IP (without /32)"
-  type = string 
+  type        = string
 }
