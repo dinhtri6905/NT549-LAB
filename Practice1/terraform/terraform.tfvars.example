@@ -9,4 +9,4 @@ az                  = "ap-southeast-1a"
 my_ip               = "YOUR_PUBLIC_IP"    # Lấy tại https://checkip.amazonaws.com
 ami_id              = "ami-0df7a207adb9748c7"
 instance_type       = "t2.micro"
-key_name            = "YOUR_KEY_PAIR_NAME" # Tên ở trong group 
+key_name            = "YOUR_KEY_PAIR_NAME" # Tên của file .pem gửi trong group 
