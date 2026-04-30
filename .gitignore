@@ -1,3 +1,7 @@
+# Terraform sensitive files
+*.tfvars
+!*.tfvars.example    # Ngoại lệ: cho phép file .example lên GitHub
+
 # Terraform state files (chứa thông tin nhạy cảm)
 *.tfstate
 *.tfstate.backup
@@ -14,3 +18,6 @@ terraform.tfvars
 # OS files
 .DS_Store
 Thumbs.db
+
+# Key Pair
+*.pem

@@ -1,0 +1,12 @@
+# terraform.tfvars.example  ← file này LÊN GitHub
+# Hướng dẫn: Copy file này thành terraform.tfvars rồi điền giá trị thật
+aws_region          = "ap-southeast-1"
+project_name        = "nt548-lab01"
+vpc_cidr            = "10.0.0.0/16"
+public_subnet_cidr  = "10.0.1.0/24"
+private_subnet_cidr = "10.0.2.0/24"
+az                  = "ap-southeast-1a"
+my_ip               = "YOUR_PUBLIC_IP"    # Lấy tại https://checkip.amazonaws.com
+ami_id              = "ami-0df7a207adb9748c7"
+instance_type       = "t2.micro"
+key_name            = "YOUR_KEY_PAIR_NAME" # Tên ở trong group 
